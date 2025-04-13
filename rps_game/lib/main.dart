@@ -119,6 +119,8 @@ class _rps_gameState extends State<rps_game> {
                 setState(() {
                   playerScore = 0;
                   computerScore = 0;
+                  playerChoice = '';
+                  computerChoice = '';
                 });
               },
               child: const Text('Reset Score'),
